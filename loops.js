@@ -10,4 +10,5 @@ function whileLoop(n) {
   while (n > 0) {
     setTimeout(console.log(n--),1000);
   }
+  return 'done';
 }
