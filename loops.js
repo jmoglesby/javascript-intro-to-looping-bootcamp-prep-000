@@ -3,4 +3,5 @@ function forLoop(array) {
     var sentence = `I am ${i} strange loop${i === 0 ? '' : 's'}.`;
     array.push(sentence);
   }
+  return array;
 }
